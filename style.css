@@ -10,6 +10,10 @@ body{
 #title{
     color: rgb(38, 0, 255);
     text-align: center;
+    font-size: 99px;
+    font-style: oblique;
+    margin: auto;
+    background: linear-gradient rgb( 189, 91, 91 )15%,(#2bbdc2) 100%
 }
 
 #imagem{
