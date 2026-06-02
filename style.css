@@ -26,8 +26,9 @@ body{
     color: rgba(221, 218, 7, 0.87);
     text-align:justify;
     font-size: 26px;
+    padding: 5px; 
+    margin-top: 21px;
 }
-
 footer{
     background: linear-gradient(rgb(189, 91, 91) 15%,rgb(107, 174, 228)100%);
     color: rgba(47, 26, 97, 0.945);
@@ -36,3 +37,15 @@ footer{
     justify-content: center;
     align-items: center;
 }
+
+img{
+
+    border: 50px groove rgb(51, 178, 216);
+    border-radius: 10%;
+    height: 500px;
+    width: 570px;
+    box-shadow: 10px 10px 5px rgb(55, 79, 95);
+    
+
+}
+
