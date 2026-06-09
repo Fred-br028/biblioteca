@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playwrite+BR:wght@100..400&display=swap" rel="stylesheet">
@@ -10,10 +12,31 @@
     <title>Biblioteca all books</title>
 </head>
 <body>
-    <h1 id="title">Bem-vindo</h1>
+    <div class="container">
+        <h1 id="title">Bem-vindo</h1>
     <img src="assets/81be8038-6db1-4ee6-9c38-64d62655bf15.png" id="imagem">
     <p class="text">A biblioteca All Books é um espaço criado para incentivar a leitura, o conhecimento e a imaginação. Com um ambiente acolhedor e moderno, ela reúne livros de diversos gêneros, desde romances e aventuras até obras acadêmicas e educativas, oferecendo opções para leitores de todas as idades. Seu objetivo é proporcionar acesso à cultura e transformar cada visita em uma experiência inspiradora.</p>
     <p class="text">Além de disponibilizar um grande acervo literário, a All Books busca aproximar a comunidade do universo da leitura por meio de atividades culturais, clubes do livro e eventos educativos. A biblioteca representa um lugar onde histórias ganham vida, ideias são compartilhadas e o aprendizado acontece de forma acessível e prazerosa para todos.</p>
+
+    </div>
+    <section id="fac" class="container"> 
+        <form>
+            <div class="form-group">
+                 <label for="nome">Nome:</label>
+                 <input type="text" class="form-control" id="nome" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" class="form-control" id="email" required>
+            </div>
+            <div class="form-group">
+                <label for="mensagem">Mensagem:</label>
+                <textarea  class="form-control" id="mensagem" rows="5" required></textarea>
+
+            </div>
+            <button type="submit" class="btn btn-success">Enviar👍</button>
+        </form>
+    </section>
     <footer>
         <P>
             &copy; All Books -  Nem Todos os direitos reservados -- 2026
