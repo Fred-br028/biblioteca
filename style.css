@@ -20,6 +20,12 @@ body{
     align-items: center;
     margin: auto;
     display: block;
+     border: 50px groove rgb(51, 178, 216);
+    border-radius: 10%;
+    height: 500px;
+    width: 570px;
+    box-shadow: 10px 10px 5px rgb(55, 79, 95);
+    
 }
 
 .text{
@@ -40,12 +46,16 @@ footer{
 
 img{
 
-    border: 50px groove rgb(51, 178, 216);
-    border-radius: 10%;
-    height: 500px;
-    width: 570px;
-    box-shadow: 10px 10px 5px rgb(55, 79, 95);
-    
+   
 
+}
+
+.social-links img{
+    height: 24px;
+
+}
+.social-links li{
+    display: inline-block;
+    margin-right: 8px;
 }
 
